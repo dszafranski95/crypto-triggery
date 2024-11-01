@@ -5,6 +5,10 @@ import { taskTitle as Task3Title } from './Task3/Task3';
 import { taskTitle as Task4Title } from './Task4/Task4';
 import { taskTitle as Task5Title } from './Task5/Task5';
 import { taskTitle as Task6Title } from './Task6/Task6';
+import { taskTitle as Task7Title } from './Task7/Task7';
+import { taskTitle as Task8Title } from './Task8/Task8';
+import { taskTitle as Task9Title } from './Task9/Task9';
+import { taskTitle as Task10Title } from './Task10/Task10';
 
 const Basics = ({ onTaskSelect }) => {
   // Map each task to its custom title
@@ -15,6 +19,11 @@ const Basics = ({ onTaskSelect }) => {
     { name: 'Task4', title: Task4Title },
     { name: 'Task5', title: Task5Title },
     { name: 'Task6', title: Task6Title },
+    { name: 'Task7', title: Task7Title },
+    { name: 'Task8', title: Task8Title },
+    { name: 'Task9', title: Task9Title },
+    { name: 'Task10', title: Task10Title },
+
   ];
 
   return (
